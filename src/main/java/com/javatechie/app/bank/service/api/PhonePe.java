@@ -11,4 +11,8 @@ public class PhonePe implements Payment {
 		return "payment process using phonepe..!";
 	}
 
+	@Override
+	public String doCashOut() {
+		return "this is Phonepay class doCashout";
+	}
 }

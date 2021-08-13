@@ -4,4 +4,6 @@ public interface Payment {
 
 	
 	public String doTransaction();
+	public String doCashOut();
+
 }

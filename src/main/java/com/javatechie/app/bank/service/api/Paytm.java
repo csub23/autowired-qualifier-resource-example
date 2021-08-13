@@ -10,4 +10,15 @@ public class Paytm implements Payment {
 		return "payment process using paytm..!";
 	}
 
+	@Override
+	public String doCashOut() {
+		return null;
+	}
+
+
+	public String testingMethod() {
+		return "Testing Method";
+	}
+
+
 }

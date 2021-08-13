@@ -8,8 +8,8 @@ import com.javatechie.app.bank.service.app.UserPaymentService;
 public class App {
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext(
-				"com/javatechie/app/bank/service/config/application-context.xml");
-
+				"application-context.xml");
+		System.out.println("xml is loaded");
 		UserPaymentService service = context.getBean(UserPaymentService.class);
 		System.out.println(service.processPayment());
 	}
