@@ -1,5 +1,6 @@
 package com.javatechie.app.bank.service.api;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
